@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontawesome-all.css">
+  <link rel="stylesheet" href="css/fa-brands.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Blog de Música</title>
+</head>
+
+<body>
+  <!-- INICIO CONTENEDOR PRINCIPAL -->
+  <div class="container">
+    <!-- HEADER; P1, P2 -->
+    <header>
+      <div class="row justify-content-between">
+        <div class="col-12 col-md-3 col-lg-4 text-lg-left text-md-center text-sm-center text-center"><img src="img/logo.png" alt="logo" class="img-fluid"></div>
+        <div class="col-12 col-md-4 align-self-end text-lg-right mr-3 text-md-center text-sm-center text-center" style="color: #FFFFFF " id="social">
+          <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square fa-3x"></i></a>
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x "></i></a>
+          <a href="https://www.instragram.com" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+          <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-square fa-3x"></i></a>
+          <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x " ></i></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- BARRA DE NAVEGACION;P3-->
+    <nav class="nav nav-pills nav-fill ">
+      <a class="nav-item nav-link bg-secondary active" href="#">Inicio</a>
+      <a class="nav-item nav-link btn-outline-dark" href="#">Artistas</a>
+      <a class="nav-item nav-link btn-outline-dark" href="#">Grupos</a>
+      <a class="nav-item nav-link btn-outline-dark" href="#">Top 10</a>
+      <a class="nav-item nav-link btn-outline-dark" href="#">Letras</a>
+      <a class="nav-item nav-link btn-outline-dark" href="#">Acordes</a>
+    </nav>
+
+
+    <!-- CONTENIDO; P4-->
+    <div class="row mt-3 ">
+      <!-- POST -->
+      <div class="col-md-9 col-lg-9 bg-light">
+        <!-- first post -->
+        <div class="row">
+          <div class="col-sm-12 col-md-8 order-1">
+            <h5>Enrique Bunbury</h5>
+            <p class="text-justify">
+              Comenzó en la música durante los primeros años de la década de los 80 formando parte de sus primeras agrupaciones como Apocalipsis, Rebel Waltz, Proceso Entrópico y Zumo de Vidrio, aunque su consagración llegó siendo el vocalista y líder de la banda Héroes del Silencio, grupo musical de gran éxito, siendo considerada por muchos una de las mejores bandas de rock en español. Luego de la ruptura de la banda en 1996 comenzó su carrera como solista en el año siguiente, convirtiéndose en una importante figura en el ámbito musical español e hispanoamericano. </p>
+          </div>
+          <div class="col-sm-12 col-md-4 order-2"><img src="img/Enrique_Bunbury.jpg" alt="bunbury"></div>
+          <div class="col order-3 mt-3">
+            <form class="form-group">
+              <div class="input-group">
+                <div class="input-group-addon mr-3 ">
+                  <i class="fas fa-user fa-2x"></i>
+                </div>
+                <input type="text" class="form-control " name="comment" placeholder="Comentario..."></div>
+            </form>
+          </div>
+        </div>
+
+        <!-- second post -->
+        <div class="row mt-3 ">
+          <div class="col-sm-12 col-md-8 order-2">
+            <h5>Heroes Del Silencio</h5>
+            <p class="text-justify">
+              A veces abreviado Héroes o por sus iniciales HDS fue un grupo español de rock radicado en Zaragoza, formado inicialmente por Juan Valdivia (guitarra solista) y Enrique Bunbury (voz y guitarra rítmica), y completado con Joaquín Cardiel (bajo) y Pedro Andreu (batería), a mediados de los años 80. Experimentaron un gran éxito en España e Hispanoamérica, así como en varios países europeos, incluyendo Alemania, Bélgica, Suiza, Francia e Italia, convirtiéndose en uno de los grupos más exitosos de la historia del rock en español. Después de doce años en los que vendieron más de seis millones de discos en más de treinta y siete países, y en los que ofrecieron más de mil conciertos, la banda se separó en 1996.​ </p>
+          </div>
+          <div class="col-sm-23 col-md-4 order-1"><img class="img-fluid" src="img/HDS.jpg" alt="HeroesDelSilencio"></div>
+          <div class="col order-3 ">
+            <form class="form-group bg-pr">
+              <div class="input-group">
+                <div class="input-group-addon mr-3">
+                  <i class="fas fa-user fa-2x"></i>
+                </div>
+                <input type="text" class="form-control" name="comment" placeholder="Comentario..."></div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- SEARCH -->
+      <div class="col-3 bg-light d-none d-sm-none d-md-block">
+        <!-- INPUT SEARCH -->
+        <form class="form-group bg-grey rounded">
+          <div class="input-group ">
+            <div class="input-group-prepend">
+              <div class="input-group-text round-5 bg-white"><i class="fas fa-search fa-1x"></i></div>
+            </div>
+            <input type="text" class="form-control round-5" id="search">
+          </div>
+          <label for="search" class="ml-3">Buscar</label>
+        </form>
+
+        <!-- OPTIONS SEARCH -->
+        <div class="list-group ">
+          <a href="#" class="list-group-item list-group-item-action ">La Chispa Adecuada</a>
+          <a href="#" class="list-group-item list-group-item-action">De Mayor</a>
+          <a href="#" class="list-group-item list-group-item-action">En los Brazos de la Fiebre</a>
+          <a href="#" class="list-group-item list-group-item-action">Apuesta por el Rock And Roll</a>
+          <a href="#" class="list-group-item list-group-item-action disabled">Entre dos Tierras</a>
+          <a href="#" class="list-group-item list-group-item-action ">Al Final</a>
+          <a href="#" class="list-group-item list-group-item-action">El Extranjero</a>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
